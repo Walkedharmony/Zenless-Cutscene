@@ -36,7 +36,7 @@ def main():
         Extract.extract_audio_from_db(input_filename_without_ext, db_name="audio_files.db", output_folder=output_audio_dir) 
         print("Processing Audio... DONE")
 
-        audio_file_path = os.path.join(output_audio_dir, f"{input_filename_without_ext}.wav")
+        audio_file_path = os.path.join(output_audio_dir, f"{input_filename_without_ext}.aac")
         video_file_path = os.path.join(output_audio_dir, f"{input_filename_without_ext}.ivf")
         output_video_path = os.path.join(output_audio_dir, f"{input_filename_without_ext}.mp4")
 
