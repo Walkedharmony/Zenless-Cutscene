@@ -6,7 +6,7 @@ Merger between Wannacri for USM and FFMPEG for Merger video and audio
 Before using it you must install from [here](https://github.com/donmai-me/WannaCRI/releases/tag/0.3.0) after that do 
 `pip install WannaCRI-0.3.0-py3-none-any.whl` check by opening the terminal type wannacri if it is there then you can proceed to **How To Use**
 
-Please note that the USM that can be opened along with its audio is still very little, so far there are only 3 files and I focus on ZenlessZoneZero_Data\StreamingAssets\Video\HD\Procedure
+Please note that this is just another alternative for audio because in the original cutscene when demuxing there is no audio extracted and if you find the original way then ignore this Repository, I focus on ZenlessZoneZero_Data\StreamingAssets\Video\HD\Procedure
 
 `c030_ep030.usm |
 c030_ep040.usm |
