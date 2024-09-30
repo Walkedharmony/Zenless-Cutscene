@@ -12,7 +12,7 @@ def extract_audio_from_db(input_filename, db_name="audio_files.db", output_folde
     cursor.execute("SELECT filename FROM audio_files")
     all_files = cursor.fetchall()
 
-    normalized_input_filename = input_filename.replace('.usm', '').lower() + '.wav'
+    normalized_input_filename = input_filename.replace('.usm', '').lower() + '.aac'
 
     cursor.execute("SELECT filename, audio FROM audio_files WHERE filename = ?", (normalized_input_filename,))
     rows = cursor.fetchall()
