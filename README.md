@@ -8,10 +8,6 @@ Before using it you must install from [here](https://github.com/donmai-me/WannaC
 
 Please note that this is just another alternative for audio because in the original cutscene when demuxing there is no audio extracted and if you find the original way then ignore this Repository, I focus on ZenlessZoneZero_Data\StreamingAssets\Video\HD\Procedure
 
-`c030_ep030.usm |
-c030_ep040.usm |
-c030_ep050.usm`
-
 You can see the key in `Key.json`
 
 **How To Use**
